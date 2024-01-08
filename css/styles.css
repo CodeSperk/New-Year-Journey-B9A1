@@ -38,7 +38,7 @@ font-family: 'Merriweather', serif;
   position: absolute;
   color: white;
   background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
+  border-radius: 12px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -109,11 +109,13 @@ main{
   position: relative;
   margin-top: 120px;
 }
-.mid-party img{
+.mid-party>img{
   width: 100%;
+  height: 100%;
 }
 .party-content{
   padding: 4rem 8rem;
+  height: 99%;
 }
 .party-content>.left{
   width: 700px;
