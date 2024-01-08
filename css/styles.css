@@ -10,6 +10,24 @@ body{
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
+
+/* common styles
+================ */
+.pre-title{
+  color: #F00;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom:16px ;
+}
+.sec-title{
+color: #070211;
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 22px;
+}
+
+
+
 /* Header 
 ========== */
 header{
@@ -54,8 +72,21 @@ header{
 ========*/
 main{
   height: 60vh;
-  background-color: aquamarine;
+  background-color: rgb(238, 243, 241);
   margin: 0 140px;
+}
+/* hot deal section
+------------------ */
+.holyday-deal{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 70px;
+}
+.holyday-deal>h1{
+  color: #F00;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 
