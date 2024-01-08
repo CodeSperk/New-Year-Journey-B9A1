@@ -147,6 +147,35 @@ main{
   width:auto;
 }
 
+/* comming soon section */
+.upcoming{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap:3rem;
+}
+.upcoming-left{
+  max-width: 350px;
+}
+.upcoming-img>img{
+  width:463px;
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 34px;
+}
+.upcoming-right, .upcoming-left{
+  margin-top: 112px;
+}
+.upcoming-right>.c24{
+  color: #F00;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.upcoming-right>img{
+  margin-top: 3rem;
+}
+
 /* portfolio section/ Products */
 .portfolio{
   margin-top: 120px;
