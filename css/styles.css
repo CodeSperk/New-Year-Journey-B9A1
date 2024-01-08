@@ -71,16 +71,15 @@ header{
 /* Main 
 ========*/
 main{
-  height: 60vh;
   background-color: rgb(238, 243, 241);
   margin: 0 140px;
+  padding: 70px 0 120px;
 }
 /* hot deal section
 ------------------ */
 .holyday-deal{
   text-align: center;
   text-transform: uppercase;
-  padding-top: 70px;
 }
 .holyday-deal>h1{
   color: #F00;
@@ -97,8 +96,37 @@ footer{
   background-color: rgb(19, 18, 16);
   width: 100vw;
   color: aliceblue;
-  padding: 0 140px;
+  padding: 120px 140px;
+  font-size: 1.5rem;
 }
 .footer-container{
   
+}
+.address{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 135px 50px 0;
+  color: #fff;
+  line-height: 2.5rem;
+}
+.right div{
+  display: flex;
+  align-items: center;
+  gap:1rem
+}
+.right div a{
+  color: #fff;
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
