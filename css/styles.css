@@ -206,6 +206,72 @@ box-shadow: 0 6px 10px rgba(169, 133, 133, 0.3);
   margin-top: 3rem;
 }
 
+/* offer section */
+.offer{
+  margin-top: 120px;
+}
+.offer-content{
+  text-align: center;
+  font-weight: 500;
+}
+.offer-pre-title{
+  color:#070211;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.offer-title{
+  font-family: Merriweather;
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin-top: 1rem;
+  
+}
+.offer-title>span{
+  color:#F00;
+}
+.offer-details{
+  font-weight: 500;
+  margin: 1.5rem auto 4rem;
+  max-width: 80%;
+
+}
+.offer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.offer-img1{
+  width: 55%;
+  z-index:10;
+}
+
+.offer-top-right{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.discount{
+  width: 230px;
+  height: 230px;
+  margin-right: -120px;
+  z-index: 20;
+}
+.offer-img2{
+  width: 377px;
+  height: auto;
+  z-index: 10;
+}
+
+.offer-visual>img{
+  width:100%;
+  margin-top: -150px;
+  z-index:-1;
+}
+
+
+
+
+
 /* portfolio section/ Products */
 .portfolio{
   margin-top: 120px;
