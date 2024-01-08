@@ -22,8 +22,16 @@ body{
 .sec-title{
 color: #070211;
 font-size: 3rem;
-font-weight: 700;
+font-weight: 900;
 margin-bottom: 22px;
+font-family: 'Merriweather', serif;
+
+}
+.sec-detail{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 32px;
 }
 
 
@@ -87,6 +95,50 @@ main{
   font-weight: 700;
   margin-bottom: 3rem;
 }
+.holyday-deal>h2{
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+
+}
+.holyday-deal>img{
+  margin-top: 26px;
+}
+
+
+/* subscription section */
+.sub-container{
+  background-color: rgba(255, 0, 0, 0.051);
+  text-align: center;
+  padding:5rem 212px ;
+  margin-top: 120px;
+}
+.sub-container>h2{
+  margin-top: 2.5rem;
+}
+.sub-container>div{
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  margin-top: 48px;
+}
+#email{
+  color: rgba(7, 2, 17, 0.30);
+  font-size: 1.25rem;
+  border-radius:3rem 0 0 3rem;
+  padding: 25px 30px;
+  border: none;
+
+}
+
+#sub-btn{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #F00;
+  border-radius: 0 3rem 3rem 0;
+  padding: 1.5rem 3.5rem;
+  border:none;
+}
 
 
 
@@ -98,9 +150,6 @@ footer{
   color: aliceblue;
   padding: 120px 140px;
   font-size: 1.5rem;
-}
-.footer-container{
-  
 }
 .address{
   display: flex;
