@@ -33,13 +33,23 @@ font-family: 'Merriweather', serif;
   font-weight: 500;
   line-height: 32px;
 }
-
+.content-over-img{
+  position: absolute;
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top:0;
+  justify-content: center;
+}
 
 
 /* Header 
 ========== */
 header{
-  background-color: antiquewhite;
   padding: 50px 140px;
   font-family: 'Merriweather', serif;
 }
@@ -52,17 +62,7 @@ header{
   height:100%;
   position: absolute;
 }
-.banner>.banner-content{
-  position: absolute;
-  color: white;
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .banner-content>div{
   text-align: center;
 }
@@ -79,7 +79,6 @@ header{
 /* Main 
 ========*/
 main{
-  background-color: rgb(238, 243, 241);
   margin: 0 140px;
   padding: 70px 0 120px;
 }
@@ -102,6 +101,49 @@ main{
 }
 .holyday-deal>img{
   margin-top: 26px;
+}
+
+/* midnight Party section */
+.mid-party{
+  position: relative;
+  margin-top: 120px;
+}
+.mid-party img{
+  width: 100%;
+}
+.party-content{
+  padding: 4rem 8rem;
+}
+.party-content>.left{
+  width: 700px;
+}
+.party-heading{
+  font-family: Merriweather;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+.party-details{
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 1.5rem;
+}
+.party-btn{
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  color:#FFF;
+  border:none;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.party-content>img{
+  height: 90%;
+  width:auto;
 }
 
 
@@ -127,9 +169,8 @@ main{
   border-radius:3rem 0 0 3rem;
   padding: 25px 30px;
   border: none;
-
-}
-
+  box-shadow: 0 6px 10px rgba(255, 0, 0, 0.051);
+  }
 #sub-btn{
   color: #FFF;
   font-size: 1.5rem;
@@ -138,15 +179,17 @@ main{
   border-radius: 0 3rem 3rem 0;
   padding: 1.5rem 3.5rem;
   border:none;
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgba(255, 0, 0, 0.051);
 }
+
 
 
 
 /* footer
 ========== */
 footer{
-  background-color: rgb(19, 18, 16);
-  width: 100vw;
+  background-color: #070211;
   color: aliceblue;
   padding: 120px 140px;
   font-size: 1.5rem;
@@ -179,3 +222,7 @@ footer{
   justify-content: space-between;
   margin-top: 50px;
 }
+
+
+
+
