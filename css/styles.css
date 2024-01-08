@@ -147,6 +147,36 @@ main{
   width:auto;
 }
 
+/* Event Time */
+.event{
+  margin-top: 120px;
+  padding: 110px;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%)
+}
+.event h3{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event span{
+  color:#F00
+}
+.join-btn{
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background-color: #f00;
+  border: none;
+  color: #FFF;
+font-size: 1.25rem;
+font-weight: 700;
+text-transform: uppercase;
+cursor: pointer;
+border-radius: 5px;
+box-shadow: 0 6px 10px rgba(169, 133, 133, 0.3);
+}
+
 /* comming soon section */
 .upcoming{
   margin-top: 120px;
