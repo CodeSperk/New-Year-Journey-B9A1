@@ -18,6 +18,7 @@ body{
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom:16px ;
+  text-transform: uppercase;
 }
 .sec-title{
 color: #070211;
@@ -144,6 +145,31 @@ main{
 .party-content>img{
   height: 90%;
   width:auto;
+}
+
+/* portfolio section/ Products */
+.portfolio{
+  margin-top: 120px;
+}
+.products{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+.products>div{
+  display: flex;
+  justify-content: space-between;
+  gap:24px;
+}
+.products>div>img{
+  width:32%;
+}
+.products>div>img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 1rem;
 }
 
 
